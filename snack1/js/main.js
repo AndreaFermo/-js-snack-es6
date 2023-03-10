@@ -25,6 +25,7 @@ let nomeBiciPiuLeggera;
 
 bici.forEach((elemento) => {
     const {nome, peso} = elemento;
+    console.log(peso)
     if (peso < pesoBiciPiuLeggera){
         pesoBiciPiuLeggera = peso;
         nomeBiciPiuLeggera = nome;
